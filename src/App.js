@@ -8,7 +8,7 @@ export default function App() {
         () => {
          
          
-          let timer1 = setTimeout(() => setShowLoading(true), 5000) //1
+          let timer1 = setTimeout(() => setShowLoading(true), 5000) ///1
           //let timer1 = setTimeout(() => setShowLoading(!showLoading), 5000)  //2
           // this will clear Timeout when component unmount like in willComponentUnmount
           return () => {
